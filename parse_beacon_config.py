@@ -10,7 +10,7 @@ TODO:
  2. Dynamic size parsing
 '''
 
-from beacon_utils import *
+from .beacon_utils import *
 from struct import unpack, unpack_from
 from socket import inet_ntoa
 from collections import OrderedDict
